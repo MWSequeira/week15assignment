@@ -1,0 +1,96 @@
+{
+    "categoryList": [
+        {
+            "id": 0,
+            "title": "Packing List"
+        },
+        {
+            "id": 1,
+            "title": "Home Maintenance"
+        },
+        {
+            "id": 2,
+            "title": "Pay Bills"
+        }
+    ],
+    "tasksList": [
+        {
+            "id": 0,
+            "task": "outfits",
+            "due": "June 5",
+            "category": 0
+        },
+        {
+            "id": 1,
+            "task": "underwear",
+            "due": "June 5",
+            "category": 0
+        },
+        {
+            "id": 2,
+            "task": "toiletries",
+            "due": "June 5",
+            "category": 0          
+        }, 
+        {
+            "id": 3,
+            "task": "supplements",
+            "due": "June 5",
+            "category": 0
+        },
+        {
+            "id": 4,
+            "task": "charge cords",
+            "due": "June 5",
+            "category": 0
+        }, 
+        {
+            "id": 5,
+            "task": "dishwasher monthly clean",
+            "due": "June 2",
+            "category": 1
+        }, 
+        {
+            "id": 6,
+            "task": "replace A/C filters",
+            "due": "June 1",
+            "category": 1
+        },
+        {
+            "id": 7,
+            "task": "washing machine monthly clean",
+            "due": "June 4",
+            "category": 1
+        }, 
+        {
+            "id": 8,
+            "task": "get septic tank pumped",
+            "due": "Nov 4",
+            "category": 1
+        },  
+        {
+            "id": 9,
+            "task": "gas",
+            "due": "June 17",
+            "category": 2
+        },
+        {
+            "id": 10,
+            "task": "electric",
+            "due": "June 18",
+            "category": 2
+        },
+        {
+            "id": 11,
+            "task": "credit card 1",
+            "due": "June 23",
+            "category": 2
+        },
+        {
+            "id": 12,
+            "task": "credit card 2",
+            "due": "June 15",
+            "category": 2
+        } 
+    ]
+}
