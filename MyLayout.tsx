@@ -11,14 +11,15 @@ export default function MyLayout() {
                 </div>
             </div>
             <div className="row text-start">
-                <div className="col-4 col-sm-3">
+                <div className="col-5">
                     
                 <div style={{
                     border: "solid",
                     borderColor: "blue",
+                    margin: "1rem",
                     padding: "1rem"
                     }}>
-                    <h2>My Categories</h2>
+                    <h3>Categories</h3>
                     <MyCatsList />
                 </div>
 
@@ -28,9 +29,10 @@ export default function MyLayout() {
                 <div style={{
                     border: "solid",
                     borderColor: "red",
+                    margin: "1rem",
                     padding: "1rem"
                     }}>
-                    <h2>My Tasks</h2>
+                    <h2>Tasks</h2>
                     <MyTaskList />
                 </div>
 
