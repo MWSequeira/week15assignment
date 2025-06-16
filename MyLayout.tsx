@@ -1,7 +1,14 @@
+import { useState } from "react"
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import MyCatsList from './MyCatsList'
 import MyTaskList from './MyTaskList'
 
 export default function MyLayout() {
+    
+    const[selectedCatID, setSelectedCatID] = useState(0)
+
+    console.log(selectedCatID)   
+
     return [
         <div className="container">
             <div className="row text-center">
@@ -20,7 +27,7 @@ export default function MyLayout() {
                     padding: "1rem"
                     }}>
                     <h3>Categories</h3>
-                    <MyCatsList />
+                    <MyCatsList selectedCatID={selectedCatID} setSelectedCatID={setSelectedCatID}/>
                 </div>
 
                 </div>
@@ -33,7 +40,7 @@ export default function MyLayout() {
                     padding: "1rem"
                     }}>
                     <h2>Tasks</h2>
-                    <MyTaskList />
+                    <MyTaskList selectedCatID={selectedCatID}/>
                 </div>
 
                 </div>

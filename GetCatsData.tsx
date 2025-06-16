@@ -11,5 +11,5 @@ export default async function GetCatsData() {
     return data
 }
 
-// Notes to Me:
+// Note to Me:
 // consider using <> to return data
